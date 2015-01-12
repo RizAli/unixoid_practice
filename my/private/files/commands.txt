@@ -1,0 +1,500 @@
+   28  grep -n 'hello' t-vars.env 
+   29  grep -n 'list' t-vars.env 
+   30  grep -n 'of' t-vars.env 
+   31  ls
+   32  cd ..
+   33  ls
+   34  cd ~
+   35  ls
+   36  cd Documents/
+   37  ls
+   38  cd temp/
+   39  ls
+   40  cp challenge.rb challenge.txt
+   41  ls
+   42  cd my/private/files/
+   43  ls
+   44  rm test.txt
+   45  subl cd ..challenge.txt
+   46  ls
+   47  cd ..
+   48  cd ..
+   49  ls
+   50  cd private
+   51  ls
+   52  cd ..
+   53  ls
+   54  cd ..
+   55  ls
+   56  subl challenge.txt
+   57  set
+   58  clear
+   59  echo $PS1
+   60  echo $PASS
+   61  echo $PATH
+   62  echo $NAME
+   63  name = Rizwan
+   64  echo $name
+   65  set name = Rizwan
+   66  echo $name
+   67  name=Rizwan
+   68  echo $name
+   69  set
+   70  set |more| q
+   71  set | more
+   72  clear
+   73  echo name
+   74  echo $name
+   75  sh
+   76  echo $name
+   77  export name
+   78  sh
+   79  echo $lines
+   80  echo $Lines
+   81  echo $LINES
+   82  eho $COLUMNS
+   83  echo $COLUMS
+   84  echo $COLUMS
+   85  echo $HOME
+   86  echo $MAIL
+   87  echo $MAILCHECK
+   88  echo $PATH
+   89  echo $SHELL
+   90  echo $TERM
+   91  ls
+   92  eho $PATH
+   93  echo $path
+   94  echo $Path
+   95  cd ..
+   96  echo $PATH
+   97  clear
+   98  echo $PATH
+   99  cd /bin
+  100  echo *
+  101  export TESTING_MAKERS=working='path/to/rizwan'
+  102  echo $TESTING_MAKERS
+  103  sh
+  104  cd ~
+  105  ls
+  106   *.rc
+  107  cd /
+  108  ls
+  109  ls -lw
+  110   *.rc
+  111  *.rc
+  112  clear
+  113  ls
+  114  subl .sbin
+  115  subl sbin
+  116  .bin
+  117  ls
+  118  cd /
+  119  ls
+  120  clear
+  121  ls
+  122  cd home
+  123  cd ~
+  124  ls
+  125  cd /
+  126  ls
+  127  cd home
+  128  ls
+  129  pwd
+  130  ls -l
+  131  ls -la
+  132  cd ~
+  133  pwd
+  134  ls
+  135  ls -la
+  136  cat .bash_profile 
+  137  ls
+  138  cat .bash_profile cd ~
+  139  ls
+  140  ls
+  141  pwd
+  142  cd ~
+  143  pwd
+  144  ls -lA
+  145  subl .bash_profile
+  146  cat .bash_profile
+  147  echo $TESTING_MAKERS
+  148  echo $TESTING_MAKERS
+  149  ls
+  150  cd ~
+  151  ls
+  152  clear
+  153  ls
+  154  cd ~
+  155  ls
+  156  cd /
+  157  ls
+  158  cd home
+  159  ls
+  160  cd ~
+  161  ls
+  162  pwd
+  163  ls -lA
+  164  export TESTING_MAKERS=working
+  165  echo $TESTING_MAKERS
+  166  echo $TESTING_MAKERS
+  167  echo TESTING_MAKERS
+  168  echo $TESTING_MAKERS
+  169  echo $T
+  170  ls
+  171  cd Documents/
+  172  ls
+  173  cd temp/my/private/files/
+  174  ls
+  175  cat t-vars.env 
+  176  echo $T >> t-vars.env 
+  177  cat t-vars.env 
+  178  echo $T
+  179  echo $T
+  180  Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
+  181  Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
+  182  Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
+  183  clear
+  184  $'\t'
+  185  echo $T '\t' '\t'
+  186  echo $T'\t''\t'
+  187  echo $T'\t'
+  188  clear
+  189  echo $T\t\t
+  190  echo $T \t\t
+  191  echo $T'\t''\t\
+  192  q
+  193  quit
+  194  ls
+  195  clear
+  196  \t
+  197  echo $T\t\t
+  198  echo "$T\t\t"
+  199  echo $T
+  200  echo $T |/t
+  201  printenv
+  202  printenv | grep $T
+  203  echo $T/t/t
+  204  echo $T\/t/t
+  205  echo $T\\/t/t
+  206  echo $t
+  207  echo $T grep |ls
+  208  ls
+  209  clear
+  210  ls
+  211  cd Documents/
+  212  ls
+  213  cd temp/my/private/files/
+  214  ls
+  215  subl t-vars.env
+  216  echo $T >>t-vars.env 
+  217  ls
+  218  subl t-vars.env 
+  219  subl t-vars.env 
+  220  echo "Hello" >> t-vars.env 
+  221  ls
+  222  clear
+  223  ls
+  224  date >> t-vars.env 
+  225  echo $T >> t-vars.env 
+  226  perl -e
+  227  ls
+  228  echo $T >> t-vars.env 
+  229  echo >> hello 2
+  230  echo >> hello2
+  231  cat hello2
+  232  ls
+  233  cat t-vars.env 
+  234  "hello 2" >> t-vars.env 
+  235  "hello 2" >> t-vars.env 
+  236  cat t-vars.env 
+  237  echo "This is new line" >> t-vars.env 
+  238  subl t-vars.env 
+  239  echo $T >> t-vars.env 
+  240  echo $T/t/t >> t-vars.env 
+  241  echo $T | wc -l
+  242  echo "$T" | wc -l
+  243  echo "$T" | wc -lA
+  244  echo "$T" | wc -la
+  245  echo "$T" | wc -lS
+  246  echo "$T" | wc -lA
+  247  echo "$T" | wc -lS
+  248  echo "$T"
+  249  echo "$T"
+  250  echo $T
+  251  echo "$T" | Term
+  252  echo "$T" |"Term"
+  253  echo "$T" |Term
+  254  echo "$T" |wc -l
+  255  echo "$T" |wc -l
+  256  echo "$T" |wc -lA
+  257  echo "$T" |wc -ls
+  258  echo "$T" |wc -l
+  259  printenv
+  260  printenv |$T
+  261  print env |T
+  262  print env |*T
+  263  print env | wc -l
+  264  print env |wc -l
+  265  print env|wc -l
+  266  print env| wc -l
+  267  print $T
+  268  echo $T
+  269  env | grep "^T"
+  270  env
+  271  env | grep $T
+  272  env | grep "$T"
+  273  clear
+  274  env | grep "$T"
+  275  env
+  276  env |grep "^T"
+  277  env |grep "^T" | wc
+  278  env |grep "^T" | wc -l
+  279  env |grep "^T" | wc -w
+  280  env |grep "^T" | wc -m
+  281  env |grep "^T" >> t-vars.env 
+  282  cat t-vars.env 
+  283  env
+  284  env |grep "^T" | wc -l
+  285  man chmod
+  286  ls
+  287  ls -lA
+  288  rm hello
+  289  rm hello2
+  290  ls
+  291  ls -lA
+  292  chmod 600 t-vars.env 
+  293  ls -la
+  294  man chmod
+  295  cd ..
+  296  ls
+  297  cd ..
+  298  ls
+  299  cd ..
+  300  ls
+  301  clear
+  302  ls
+  303  chmod -r 600 my
+  304  chmod 600 my
+  305  ls -la
+  306  chmod 500 my
+  307  ls -la
+  308  chmod 600 my
+  309  ls -la
+  310  ls
+  311  cd ~
+  312  ls
+  313  cd Documents/
+  314  ls
+  315  cd temp/my/
+  316  ls
+  317  cd temp
+  318  ls
+  319  cd my
+  320  ls
+  321  chmod 700 my
+  322  ls -la
+  323  cd my
+  324  ls
+  325  chmod 777 my/public/
+  326  chmod 777 public/files/t-vars.env 
+  327  ls -la
+  328  ls
+  329  cd public/files/
+  330  ls
+  331  ls -LA
+  332  ls -lA
+  333  ls
+  334  touch t-vars.count
+  335  env 
+  336  clear
+  337  env |"^T" |wc -l
+  338  env |"^T" |wc -a
+  339  env |grep "^T" |wc -a
+  340  env |"grep "^T"
+  341  t-vars.
+  342  env |"grep "^T"
+  343  t-vars.
+  344  exit
+  345  env grep |"^T^
+  346  exit
+  347  quite
+  348  quit
+  349  clear
+  350  env | grep "^T"|
+  351  env $T
+  352  clear
+  353  env | grep "^T"
+  354  env | grep "^T" |wc -l
+  355  env | grep "^T" |wc -c
+  356  env | grep "^T" |wc -m
+  357  env | grep "^T" |wc -a
+  358  env | grep "^T" |wc -l
+  359  clear
+  360  env | grep "^T" |wc -l
+  361  env | grep "^T" |wc -l >> t-vars.count
+  362  cat t-vars.count 
+  363  subl t-vars.count 
+  364  chmod 777 t-vars.count 
+  365  ls -lA
+  366  ls -l
+  367  clear
+  368  ls
+  369  mv t-vars.count Documents/temp/my/public/files/t-vars.count 
+  370  ls -l Documents/temp/my/public/files/
+  371  chmod 733 Documents/temp/my/public/files/t-vars.
+  372  chmod 733 Documents/temp/my/public/files/t-vars.env 
+  373  ls
+  374  cd Documents/temp/my/public/files/
+  375  ls
+  376  ls -lA
+  377  chmod 766 t-vars.env 
+  378  ls -lA
+  379  chmod 766 t-vars.count 
+  380  ls -lA
+  381  cd ~
+  382  ls
+  383  cd Documents/
+  384  cd temp/
+  385  clear
+  386  ls
+  387  touch my/public/files/text-files-count.txt
+  388  ls
+  389  ls -lA  my/public/files/text-files-count.txt
+  390  pwd
+  391  cd my/public/files/
+  392  ls
+  393  cd ~
+  394  ls
+  395  ls |c *.txt
+  396  ls wc *.txt
+  397  ls *.txt
+  398  ls *.txt | wc
+  399  ls *.txt | wc -l
+  400  ls *.txt | wc -a
+  401  man wc
+  402  clear
+  403  ls *.txt | wc
+  404  ls
+  405  touch deleteme.txt
+  406  ls *.txt |wc
+  407  ls *.txt |wc -l
+  408  rm deleteme.txt
+  409  ls -lA
+  410  ls -l
+  411  clear
+  412  ls -lA
+  413  ls
+  414  clear
+  415  ls
+  416  ls *.txt |wc -l
+  417  clear
+  418  gem install unixoid-challenge
+  419  gem install unixoid-challenge
+  420  gem install
+  421  cd documents
+  422  ls
+  423  cd temp
+  424  ls
+  425  gem install unixiod-challenge
+  426  ls *.txt
+  427  ls *.txt| wc
+  428  ls *.txt| wc -r
+  429  ls *.txt| wc -rl
+  430  ls *.txt| wc -v
+  431  find . *.txt |exargs wc -l
+  432  *.txt | exargs wc -l
+  433  *.txt
+  434  find . *.txt
+  435  find . *.txt | xargs wc -l
+  436  cd ~
+  437  ls
+  438  clear
+  439  ls
+  440  find ./ *.txt -print0 | xargs -0 cat | wc -l
+  441  ls
+  442  find .-name '*.php'
+  443  find . '*.txt'
+  444  find | grep *.txt
+  445  find | grep *.txt$
+  446  find /path -type f -name "*.php" | while read FILE ; do count =$(wc -l ); clear
+  447  find . *.txt | xargs wc -l | sort -r
+  448  wc -l find. *.txt
+  449  wc -l *.txt
+  450  man wc
+  451  man wc -l
+  452  wc -l* | sort
+  453  wc -l* | sort -nr
+  454  wc *.txt
+  455  env 
+  456  env |grep sort
+  457  clear
+  458  ls
+  459  printenv SHELL
+  460  env
+  461  print env
+  462  printen
+  463  printenv
+  464  printenv SHELL
+  465  set | less
+  466  printenv | grep "^T"
+  467  printenv | grep TEST_VAR
+  468  ls
+  469  comm -3
+  470  declare -p
+  471  env
+  472  declare -p | cut -d " " -f 3
+  473  clear
+  474  ls
+  475  printenv
+  476  env
+  477  ls
+  478  ls
+  479  clear
+  480  ls
+  481  wc *.txt
+  482  wc *.txt
+  483  env
+  484  env 
+  485  env
+  486  printenv a
+  487  printenv | grep "^p"
+  488  printenv | grep "^t"
+  489  printenv
+  490  env |grep man sort
+  491  man sort
+  492  env | sort
+  493  env | sort 
+  494  sort
+  495  man sort
+  496  env | sort -f
+  497  env | sort | cat -n3
+  498  env | sort | cat -n 3
+  499* 
+  500  env | sort | cat
+  501  env | sort | cat -n
+  502  man echo
+  503  man cat
+  504  env | sort | head -3
+  505  env | sort | tail  -3
+  506  env | sort | head -3
+  507  gem install unixoid-challenge
+  508  sudo gem install unixoid-challenge
+  509  unixoid-challenge
+  510  unixoid-Challenge
+  511  ls
+  512  touch Documents/temp/my/public/files/text-files-count.txt
+  513  touch Documents/temp/my/private/files/first-three-env.txt
+  514  env |sort |head 3
+  515  env
+  516  env |sort |head
+  517  env |sort |head -3
+  518* env |sort |head -3 >> Documents/temp/my/private/files/first-three-env.txt
+  519  cat Documents/temp/my/private/files/first-three-env.txt 
+  520  history
+  521  history
+  522  history | more
+  523  history
+  524  history >> touch Documents/temp/my/private/files/commands.txt
+  525  history
+  526  touch Documents/temp/my/private/files/commands.txt
+  527  history >> Documents/temp/my/private/files/commands.txt 

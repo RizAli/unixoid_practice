@@ -1,0 +1,129 @@
+=begin
+
+1. Using one command, create a directory structure "my/private/files"
+mkdir -p my/private/files
+=============================================================
+2. Using one command, create a directory structure "my/public/files"
+mkdir -p my/public/files
+=============================================================
+3. Create an empty file 't-vars.env' in my/private/files  (lets do it in one command)
+touch my/private/files/t-vars.env
+=============================================================
+
+4. Using command-line only add the line "List of env vars that begin with T" to the file, make sure it ends with a newline
+Rizwans-MacBook-Pro:temp rizcube$ echo -e "List of env vars that begin with T /n ">>my/private/files/t-vars.env 
+
+
+
+=============================================================
+5. List all env variables that begin with "T" (hint: you'll need a regex that includes the marker of the start of the line) and append them to the end of the file
+echo $T (press Tab key twice)
+
+what are regular expressions: it is a flexible search pattern.
+	it is made up of:
+	anchors - specify the position
+	character sets - what is searched
+	modifiers - specify how many times the previous character set is repeated
+
+there are two types of characters 
+ ^ at the begining of the line
+$ at the end of the file
+
+
+solution:
+*********
+Rizwans-MacBook-Pro:files rizcube$ env |grep "^T" >> t-vars.env 
+
+
+
+
+
+=============================================================
+6. 
+Export a new variable TESTING_MAKERS=working in such a way that it is still available when you open a new shell
+
+This will temperarily create a variable
+export TESTING_MAKERS=working
+
+the variabe opens up if the following command is added
+"export TESTING_MAKERS=working" in .bash_profile
+=============================================================
+7. Open a new terminal window, check that a new variable is available
+
+it works in a new terminal
+
+=============================================================
+8. Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
+
+Solution:
+Rizwans-MacBook-Pro:files rizcube$ env |grep "^T" | wc -l
+
+===========================================================
+9. 
+Change the permissions of the my/private/files/t-vars.env to make sure that only the owner can read and write the file.
+
+Solution:
+---------
+Rizwans-MacBook-Pro:files rizcube$ chmod 600 t-vars.env 
+Rizwans-MacBook-Pro:files rizcube$ ls -la
+
+-rw-------  1 rizcube  staff  305 11 Jan 16:55 t-vars.env
+
+10. 
+Change the permissions of the my/private/files directory to make sure that only the owner can change into it
+
+solution:
+drw-------   5 rizcube  staff   170 10 Jan 12:23 my
+
+
+11. Give read and write permissions to all users on my/public/files/t-vars.count
+
+Solution:
+Rizwans-MacBook-Pro:files rizcube$ chmod 766 t-vars.count 
+-rwxrw-rw-  1 rizcube  staff  9 11 Jan 19:02 t-vars.count
+
+12. 
+
+Create another file my/public/files/text-files-count.txt and output the number of text files in your home directory (recursively) into that file
+
+solution.
+
+
+
+13. 
+Create another file my/private/files/first-three-env.txt and output the first three env variables from a list of all of them sorted alphabetically
+
+Solution:
+Rizwans-MacBook-Pro:~ rizcube$ touch Documents/temp/my/private/files/first-three-env.txt
+
+
+Rizwans-MacBook-Pro:~ rizcube$ env |sort |head -3 >> Documents/temp/my/private/files/first-three-env.txt 
+
+
+14. 
+Create another file my/private/files/commands.txt and output the contents of the history command to that file
+
+Solution:
+
+Rizwans-MacBook-Pro:~ rizcube$ touch Documents/temp/my/private/files/commands.txt
+
+Rizwans-MacBook-Pro:~ rizcube$ history >> Documents/temp/my/private/files/commands.txt 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
